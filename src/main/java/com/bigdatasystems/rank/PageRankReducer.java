@@ -1,14 +1,14 @@
-package com.umermansoor;
+package com.bigdatasystems.rank;
 
 import org.apache.hadoop.io.DoubleWritable;
-import org.apache.hadoop.mapreduce.Reducer;
-import java.io.IOException;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+import java.io.IOException;
 
 
-
-public class EarthquakeReducer extends 
-        Reducer<Text, DoubleWritable, Text, DoubleWritable> 
+public class PageRankReducer extends
+        Reducer<Text, DoubleWritable, Text, DoubleWritable>
 {
 
     /**

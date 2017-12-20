@@ -1,4 +1,4 @@
-package com.umermansoor;
+package com.bigdatasystems.rank;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -11,10 +11,10 @@ import java.io.IOException;
 /**
  * This is the main Mapper class. 
  * 
- * @author umermansoor
+ * @author bigdatasystems
  */
-public class EarthquakeMapper extends 
-        Mapper<LongWritable, Text, Text, DoubleWritable> 
+public class PageRankMapper extends
+        Mapper<LongWritable, Text, Text, DoubleWritable>
 {
 
     /**

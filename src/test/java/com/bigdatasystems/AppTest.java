@@ -1,4 +1,4 @@
-package com.umermansoor;
+package com.bigdatasystems;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
