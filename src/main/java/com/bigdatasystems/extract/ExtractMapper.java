@@ -13,11 +13,10 @@ public class ExtractMapper extends Mapper<LongWritable, Text, Text, Text>
     public void map(LongWritable key, Text value, Context context) throws
             IOException, InterruptedException {
 
-        String[] line = value.toString().split(",");
+        String[] line = value.toString().split("\t");
 
         // Ignore invalid lines
-        if (line.length != 2) {
-            System.out.println("non valid");
+        if (line.length != 2 || line[0].contains("#")) {
             return;
         }
 

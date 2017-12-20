@@ -1,36 +1,33 @@
 package com.bigdatasystems.rank;
 
-import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
+public class PageRankReducer extends Reducer<Text, Text, Text, Text> {
 
-public class PageRankReducer extends
-        Reducer<Text, DoubleWritable, Text, DoubleWritable>
-{
+    private static final float damping = 0.85F;
 
-    /**
-     * The `Reducer` function. Iterates through all earthquake magnitudes for a
-     * region to find the maximum value. The output key is the `region name` and  
-     * the value is the `maximum magnitude` for that region.
-     * @param key - Input key - Name of the region
-     * @param values - Input Value - Iterator over quake magnitudes for region
-     * @param context - Used for collecting output
-     * @throws IOException
-     * @throws InterruptedException 
-     */
     @Override
-    public void reduce(Text key, Iterable<DoubleWritable> values, 
-            Context context) throws IOException, InterruptedException {
-        
-        // Standard algorithm for finding the max value
-        double maxMagnitude = Double.MIN_VALUE;
-        for (DoubleWritable value : values) {
-            maxMagnitude = Math.max(maxMagnitude, value.get());
+    public void reduce(Text page, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+        String[] split;
+        float sumShareOtherPageRanks = 0;
+        String links = "";
+        String pageWithRank;
+
+        for (Text value : values){
+            pageWithRank = value.toString();
+            String[] data = pageWithRank.split(" ");
+
+            if(data.length >= 2) {
+               links = data[1];
+            }
+            float pageRank = Float.valueOf(data[0]);
+
+            sumShareOtherPageRanks += pageRank;
         }
-        
-        context.write(key, new DoubleWritable(maxMagnitude));
+
+        context.write(page, new Text("|" +sumShareOtherPageRanks + "|" + links));
     }
 }

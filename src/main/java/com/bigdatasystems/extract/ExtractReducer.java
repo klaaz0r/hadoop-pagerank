@@ -3,6 +3,9 @@ package com.bigdatasystems.extract;
 import org.apache.hadoop.io.DoubleWritable;
 
 import java.io.IOException;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
@@ -12,14 +15,21 @@ public class ExtractReducer extends Reducer<Text, Text, Text, Text>
     @Override
     public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
 
-        String pagerank = "1.0\t";
+        String pagerank = "|1.0|";
 
         boolean first = true;
 
-        for (Text value : values) {
-            if(!first) pagerank += ",";
+        Set<String> links = new LinkedHashSet();
 
-            pagerank += value.toString();
+        for (Text value : values) {
+            links.add(value.toString());
+        }
+
+        for (String value : links) {
+            if(!first) {
+                pagerank += ",";
+            }
+            pagerank += value;
             first = false;
         }
 

@@ -1,52 +1,41 @@
 package com.bigdatasystems.rank;
-
-import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
+public class PageRankMapper extends Mapper<LongWritable, Text, Text, Text> {
 
-/**
- * This is the main Mapper class. 
- * 
- * @author bigdatasystems
- */
-public class PageRankMapper extends
-        Mapper<LongWritable, Text, Text, DoubleWritable>
-{
-
-    /**
-     * The `Mapper` function. It receives a line of input from the file, 
-     * extracts `region name` and `earthquake magnitude` from it, which becomes
-     * the output. The output key is `region name` and the output value is 
-     * `magnitude`.
-     * @param key - Input key - The line offset in the file - ignored.
-     * @param value - Input Value - This is the line itself.
-     * @param context - Provides access to the OutputCollector and Reporter.
-     * @throws IOException
-     * @throws InterruptedException 
-     */
     @Override
-    public void map(LongWritable key, Text value, Context context) throws 
-            IOException, InterruptedException {
+    public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
-        String[] line = value.toString().split(",", 12);
+        String clean = value.toString();
+        String[] tmp = clean.split("\t");
+        clean = String.join("", tmp);
 
-        // Ignore invalid lines
-        if (line.length != 12) {
-            System.out.println("- " + line.length);
-            return;
+        System.out.println("clean:: " + clean);
+        String[] parsed = clean.split("\\|");
+
+        String node = parsed[0];
+        String val = parsed[1];
+
+
+        if(parsed.length == 3) {
+
+            String[] nodes = parsed[2].split(",");
+
+            float amountOfLinks = nodes.length;
+            float share = Float.parseFloat(val) / (float) amountOfLinks;
+
+            for(String n : nodes) {
+                Text rank = new Text(Float.toString(share));
+                context.write(new Text(n), rank);
+            }
+
+            context.write(new Text(node), new Text("0.0 " + parsed[2]));
         }
 
-        // The output `key` is the name of the region
-        String outputKey = line[11];
-
-        // The output `value` is the magnitude of the earthquake
-        double outputValue = Double.parseDouble(line[8]);
-        
-        // Record the output in the Context object
-        context.write(new Text(outputKey), new DoubleWritable(outputValue));
+        context.write(new Text(node), new Text("0.0"));
     }
 }
