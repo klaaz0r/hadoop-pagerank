@@ -4,6 +4,8 @@ import com.bigdatasystems.extract.ExtractHitsMapper;
 import com.bigdatasystems.extract.ExtractHitsReducer;
 import com.bigdatasystems.extract.ExtractPageMapper;
 import com.bigdatasystems.extract.ExtractPageReducer;
+import com.bigdatasystems.hits.calc.CalcMapper;
+import com.bigdatasystems.hits.calc.CalcReducer;
 import com.bigdatasystems.hits.init.InitMapper;
 import com.bigdatasystems.hits.init.InitReducer;
 import com.bigdatasystems.hits.link.LinkMapper;
@@ -111,32 +113,32 @@ public class HitsRankRunner extends Configured implements Tool {
         // Wait for the job to finish before terminating
         boolean success = initJob.waitForCompletion(true);
 
-//        int iterations = 10;
-//        Path rankOutput = new Path("./output/parsed");
+        int iterations = 10;
+        Path rankOutput = new Path("./output/init");
 
-//        for(int i = 0; i < iterations; i++) {
-//            System.out.println("iteration round: " + i);
-//            Job pageRankJob = new Job(getConf());
-//
-//            pageRankJob.setJarByClass(App.class);
-//            pageRankJob.setJobName("Pagerank job iteration: " + i);
-//
-//            // Setup input and output paths
-//            FileInputFormat.addInputPath(pageRankJob, rankOutput);
-//
-//            rankOutput = new Path("./output/iteration-" + i);
-//
-//            FileOutputFormat.setOutputPath(pageRankJob, rankOutput);
-//
-//            // Set the Mapper and Reducer classes
-//            pageRankJob.setMapperClass(PageRankMapper.class);
-//            pageRankJob.setReducerClass(PageRankReducer.class);
-//
-//            // Specify the type of output keys and values
-//            pageRankJob.setOutputKeyClass(Text.class);
-//            pageRankJob.setOutputValueClass(Text.class);
-//            pageRankJob.waitForCompletion(true);
-//        }
+        for(int i = 0; i < iterations; i++) {
+            System.out.println("iteration round: " + i);
+            Job CalcJob = new Job(getConf());
+
+            CalcJob.setJarByClass(App.class);
+            CalcJob.setJobName("Calc hits job iteration: " + i);
+
+            // Setup input and output paths
+            FileInputFormat.addInputPath(CalcJob, rankOutput);
+
+            rankOutput = new Path("./output/iteration-" + i);
+
+            FileOutputFormat.setOutputPath(CalcJob, rankOutput);
+
+            // Set the Mapper and Reducer classes
+            CalcJob.setMapperClass(CalcMapper.class);
+            CalcJob.setReducerClass(CalcReducer.class);
+
+            // Specify the type of output keys and values
+            CalcJob.setOutputKeyClass(Text.class);
+            CalcJob.setOutputValueClass(Text.class);
+            CalcJob.waitForCompletion(true);
+        }
 
 
         return success ? 0 : 1;
