@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f32ce8-2c15-42a5-a9f5-288f612fa020" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/parsed/.part-r-00000.crc" afterPath="$PROJECT_DIR$/output/parsed/.part-r-00000.crc" />
-      <change beforePath="$PROJECT_DIR$/output/parsed/part-r-00000" afterPath="$PROJECT_DIR$/output/parsed/part-r-00000" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java" />
+      <change beforePath="$PROJECT_DIR$/output/parsed/._SUCCESS.crc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output/parsed/.part-r-00000.crc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output/parsed/_SUCCESS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output/parsed/part-r-00000" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,18 +31,38 @@
       <file leaf-file-name="PageRankMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="198">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageRankReducer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExtractPageMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtractPageReducer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageRankReducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="234">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,11 +96,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/App.java" />
         <option value="$PROJECT_DIR$/output/parsed/part-r-00000" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java" />
         <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java" />
       </list>
     </option>
   </component>
@@ -201,7 +181,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bigdatasystems" type="462c0819:PsiDirectoryNode" />
-              <item name="pagerank" type="462c0819:PsiDirectoryNode" />
+              <item name="extract" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,12 +334,12 @@
       <updated>1513869244804</updated>
       <workItem from="1513875234622" duration="86000" />
       <workItem from="1513876761295" duration="145000" />
-      <workItem from="1513876976838" duration="3810000" />
+      <workItem from="1513876976838" duration="3881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4041000" />
+    <option name="totallyTimeSpent" value="4112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-24" width="1366" height="792" extended-state="0" />
@@ -499,22 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/parsed/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -555,18 +519,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="198">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="246">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -26,7 +26,6 @@ public class ExtractPageMapper extends Mapper<LongWritable, Text, Text, Text>
 
         String from = line[0];
         String to = line[1];
-        System.out.println("Value:: " + value);
         // Record the output in the Context object
         context.write(new Text(from), new Text(to));
         context.write(new Text(to), new Text(";"));
