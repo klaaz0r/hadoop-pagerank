@@ -11,18 +11,14 @@ public class CalcMapper extends Mapper<LongWritable, Text, Text, Text>
     @Override
     public void map(LongWritable key, Text value, Context context) throws
             IOException, InterruptedException {
-
         String[] line = value.toString().split("\t");
 
         String page = line[0];
-        String[] hubsNAuth = line[1].split(" ");
-        String linksIn = line[4];
-        String linksOut = line[5];
-
-
         String hub = line[1];
         String auth = line[2];
-        System.out.println("VERIFY :: hub " + hub + " auth: " + auth);
+        String linksIn = line[3].substring(2);
+        String linksOut = line[4].substring(2);
+
         String[] out = linksOut.split(",");
 
         for(String oLink : out) {
@@ -37,6 +33,6 @@ public class CalcMapper extends Mapper<LongWritable, Text, Text, Text>
             context.write(new Text(iLink), new Text("A:" + auth));
         }
 
-        context.write(new Text(page), new Text("|" + linksOut));
+        context.write(new Text(page), new Text("I:" + linksIn + "\t" + "O:" + linksOut));
     }
 }

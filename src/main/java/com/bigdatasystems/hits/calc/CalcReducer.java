@@ -14,14 +14,12 @@ public class CalcReducer extends Reducer<Text, Text, Text, Text> {
         double normAuth = 0.0F;
         double normHub  = 0.0F;
         double tmpValue = 0.0F;
-        String linksInOut = "";
+        String linksOut = "";
+        String linksIn = "";
         String valueString = null;
-
-        System.out.println("REDUCER");
 
         for(Text val : values) {
             valueString = val.toString();
-            System.out.println("reducing value: " +valueString);
             // value is hub
             if(valueString.startsWith("H:")) {
 
@@ -40,26 +38,29 @@ public class CalcReducer extends Reducer<Text, Text, Text, Text> {
             }
 
             // value is in-list
-            if(valueString.startsWith("|")){
-                linksInOut += "\t" + valueString.substring(1);
+            if(valueString.startsWith("I:")){
+                String[] io =  valueString.split("\t");
+                linksIn += io[0].substring(2);
+                linksOut += io[1].substring(2);
                 continue;
             }
 
-            // else: value is out-list
-            linksInOut = valueString + linksInOut;
         }
 
-        if (linksInOut.split("\t").length < 2)
+        String linksInOut = "I:" +linksIn + "\t" + "O:" + linksOut;
+        if (linksInOut.length() == 5) {
             return;
+        }
 
         auth = auth / Math.sqrt(normAuth);
         hub  = hub  / Math.sqrt(normHub);
-        if (Double.isNaN(auth))
+        if (Double.isNaN(auth)) {
             auth = 0.0;
-        if (Double.isNaN(hub))
+        }
+        if (Double.isNaN(hub)) {
             hub = 0.0;
-        System.out.println("VERIFY :: hub " + hub + " auth: " + auth);
-        System.out.println("DONE " + key.toString()+"\t"+auth+"\t"+hub + " "+ linksInOut);
-        context.write(new Text(key.toString()+"\t"+hub+"\t"+auth), new Text( "\t" + linksInOut));
+        }
+
+        context.write(new Text(key.toString()+"\t"+auth+"\t"+hub), new Text(linksInOut));
     }
 }
