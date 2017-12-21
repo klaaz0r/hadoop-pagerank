@@ -15,11 +15,11 @@ public class InitReducer extends Reducer<Text, Text, Text, Text> {
 
         for(Text val : values) {
             String link = val.toString();
-            if (link.startsWith("|")) {	// get incoming links
+            if (link.startsWith("|")) {
                 hasIncomingLinks = true;
                 linksInOut += "\t" + link.substring(1);
                 continue;
-            } else {							// get outgoing links
+            } else {
                 if(!first) {
                     linksInOut = link + linksInOut;
                 } else {
@@ -34,6 +34,6 @@ public class InitReducer extends Reducer<Text, Text, Text, Text> {
             return;
         }
 
-        context.write(key, new Text(linksInOut));
+        context.write(key, new Text( "\t" + linksInOut));
     }
 }
