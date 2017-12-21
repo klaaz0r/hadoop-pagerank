@@ -2,68 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f38c6b-9bcd-46dd-a908-e4f056cd06db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/HitsRankRunner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsReducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/HitsMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/HitsReducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkReducer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-0/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-1/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-2/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-3/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-4/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-5/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-6/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-7/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-8/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/iteration-9/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/parsed/._SUCCESS.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/parsed/.part-r-00000.crc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/parsed/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/parsed/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/PageRankRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/rank/PageRankMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/rank/PageRankReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/result/ResultMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output/init/.part-r-00000.crc" afterPath="$PROJECT_DIR$/output/init/.part-r-00000.crc" />
+      <change beforePath="$PROJECT_DIR$/output/init/part-r-00000" afterPath="$PROJECT_DIR$/output/init/part-r-00000" />
+      <change beforePath="$PROJECT_DIR$/output/linked/.part-r-00000.crc" afterPath="$PROJECT_DIR$/output/linked/.part-r-00000.crc" />
+      <change beforePath="$PROJECT_DIR$/output/linked/part-r-00000" afterPath="$PROJECT_DIR$/output/linked/part-r-00000" />
+      <change beforePath="$PROJECT_DIR$/output/parsed/.part-r-00000.crc" afterPath="$PROJECT_DIR$/output/parsed/.part-r-00000.crc" />
+      <change beforePath="$PROJECT_DIR$/output/parsed/part-r-00000" afterPath="$PROJECT_DIR$/output/parsed/part-r-00000" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,33 +25,49 @@
       <file leaf-file-name="HitsRankRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/HitsRankRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="-212">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkReducer.java">
+      <file leaf-file-name="InitMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitMapper.java">
+      <file leaf-file-name="InitReducer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/init/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageRankRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/PageRankRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="74" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,59 +76,7 @@
         <entry file="file://$PROJECT_DIR$/output/linked/part-r-00000">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/parsed/part-r-00000">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageRankReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HitsReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/HitsReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/init/part-r-00000">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,8 +85,38 @@
       <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtractHitsMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkReducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -192,8 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setOutputFormatClass</find>
-      <find>args</find>
       <find>reduce</find>
       <find>10403</find>
       <find>1004</find>
@@ -215,6 +154,15 @@
       <find>clean::</find>
       <find>check</find>
       <find>waitForCompletion</find>
+      <find>MAPPER</find>
+      <find>TEST</find>
+      <find>out</find>
+      <find>out links</find>
+      <find>TEST</find>
+      <find>init re</find>
+      <find>verify</find>
+      <find>init redu</find>
+      <find>LINK</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,29 +191,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/rank/PageRankReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/rank/PageRankMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/Runner.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/PageRankRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/HitsReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/extract/ExtractReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/calc/HitsReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/HitsReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/CalcMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/CalcReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/HitsRankRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkReducer.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/output/init/part-r-00000" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1835" />
+    <option name="y" value="22" />
+    <option name="width" value="1605" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -313,12 +267,6 @@
             <path>
               <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="parsed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,15 +289,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bigdatasystems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdatasystems" type="462c0819:PsiDirectoryNode" />
-              <item name="extract" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
@@ -359,16 +298,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bigdatasystems" type="462c0819:PsiDirectoryNode" />
               <item name="hits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdatasystems" type="462c0819:PsiDirectoryNode" />
-              <item name="hits" type="462c0819:PsiDirectoryNode" />
-              <item name="calc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
@@ -390,20 +319,10 @@
               <item name="hits" type="462c0819:PsiDirectoryNode" />
               <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hadoopex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdatasystems" type="462c0819:PsiDirectoryNode" />
-              <item name="pagerank" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -572,35 +491,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="1835" y="22" width="1605" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39866668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4435364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19252336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -611,45 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdatasystems.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -699,105 +579,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/iteration-0/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/iteration-1/_SUCCESS">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/iteration-1/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/iteration-4/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/iteration-8/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/iteration-1/_SUCCESS" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-4/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-8/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/result/ResultMapper.java" />
-    <entry file="file://$PROJECT_DIR$/output/iteration-6/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/iteration-9/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/iteration-6/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/PageRankRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="46" column="15" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,44 +600,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/HitsMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/iteration-7/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-3/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-2/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-9/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-9/_SUCCESS" />
+    <entry file="file://$PROJECT_DIR$/output/iteration-1/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/CalcReducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/CalcMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/iteration-0/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/linked/_SUCCESS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/parsed/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/PageRankRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractPageReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="390">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/pagerank/PageRankReducer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/extract/ExtractHitsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/parsed/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -854,70 +687,48 @@
     <entry file="file://$PROJECT_DIR$/output/linked/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/HitsRankRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/calc/HitsReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-212">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/link/LinkReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/init/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bigdatasystems/hits/init/InitMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
