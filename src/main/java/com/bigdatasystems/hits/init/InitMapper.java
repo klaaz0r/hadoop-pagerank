@@ -17,6 +17,7 @@ public class InitMapper extends Mapper<LongWritable, Text, Text, Text>
         String links = line[1];
         String node = line[0] + "\t1.0\t1.0";
 
+        System.out.println("verify init map " + node + " links: " + links);
         context.write(new Text(node), new Text(links));
     }
 }

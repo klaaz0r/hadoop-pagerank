@@ -30,9 +30,9 @@ public class InitReducer extends Reducer<Text, Text, Text, Text> {
             first = true;
         }
 
-        if (!hasIncomingLinks) {
-            return;
-        }
+//        if (!hasIncomingLinks) {
+//            return;
+//        }
 
         context.write(key, new Text( "\t" + linksInOut));
     }

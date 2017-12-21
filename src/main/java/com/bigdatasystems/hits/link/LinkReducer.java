@@ -10,7 +10,7 @@ public class LinkReducer extends Reducer<Text, Text, Text, Text> {
     @Override
     public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         String linksFromPages = "|";
-
+        System.out.println("link reducer::");
         boolean isExistingPage = false;
         boolean hasIncomingLinks = false;
         boolean first = true;
@@ -37,9 +37,9 @@ public class LinkReducer extends Reducer<Text, Text, Text, Text> {
             return;
         }
 
-        if (!hasIncomingLinks) {
-            return;
-        }
+//        if (!hasIncomingLinks) {
+//            return;
+//        }
 
         context.write(key, new Text(linksFromPages));
     }

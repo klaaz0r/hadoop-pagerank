@@ -13,7 +13,7 @@ public class ExtractHitsReducer extends Reducer<Text, Text, Text, Text>
     @Override
     public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
 
-        String pagerank = "";
+        String pages = "";
 
         boolean first = true;
 
@@ -25,12 +25,12 @@ public class ExtractHitsReducer extends Reducer<Text, Text, Text, Text>
 
         for (String value : links) {
             if(!first) {
-                pagerank += ",";
+                pages += ",";
             }
-            pagerank += value;
+            pages += value;
             first = false;
         }
 
-        context.write(key, new Text(pagerank));
+        context.write(key, new Text(pages));
     }
 }

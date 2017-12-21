@@ -40,8 +40,8 @@ public class CalcReducer extends Reducer<Text, Text, Text, Text> {
             }
 
             // value is in-list
-            if(valueString.startsWith("|")){
-                linksInOut += "\t" + valueString.substring(1);
+            if(valueString.startsWith("OUT:")){
+                linksInOut += "\t" + valueString.substring(3);
                 continue;
             }
 
@@ -49,17 +49,21 @@ public class CalcReducer extends Reducer<Text, Text, Text, Text> {
             linksInOut = valueString + linksInOut;
         }
 
-        if (linksInOut.split("\t").length < 2)
-            return;
+//        if (linksInOut.split("\t").length < 2) {
+//            return;
+//        }
 
         auth = auth / Math.sqrt(normAuth);
         hub  = hub  / Math.sqrt(normHub);
-        if (Double.isNaN(auth))
+
+        if (Double.isNaN(auth)) {
             auth = 0.0;
-        if (Double.isNaN(hub))
+        }
+        if (Double.isNaN(hub)) {
             hub = 0.0;
-        System.out.println("VERIFY :: hub " + hub + " auth: " + auth);
-        System.out.println("DONE " + key.toString()+"\t"+auth+"\t"+hub + " "+ linksInOut);
+        }
+
+        System.out.println("DONE " + key.toString()+"\t"+hub+"\t"+auth + " "+ linksInOut);
         context.write(new Text(key.toString()+"\t"+hub+"\t"+auth), new Text( "\t" + linksInOut));
     }
 }

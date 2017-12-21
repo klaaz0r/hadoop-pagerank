@@ -13,23 +13,30 @@ public class CalcMapper extends Mapper<LongWritable, Text, Text, Text>
             IOException, InterruptedException {
 
         String[] line = value.toString().split("\t");
+        System.out.println("TEST LENGH " + line.length);
 
         String page = line[0];
-        String[] hubsNAuth = line[1].split(" ");
         String linksIn = line[4];
-        String linksOut = line[5];
 
 
         String hub = line[1];
         String auth = line[2];
         System.out.println("VERIFY :: hub " + hub + " auth: " + auth);
-        String[] out = linksOut.split(",");
 
-        for(String oLink : out) {
-            context.write(new Text(oLink), new Text("H:" + hub));
+        if(line.length == 6) {
+           String linksOut = line[5];
+
+            String[] out = linksOut.split(",");
+
+            System.out.println("has out links!");
+            for(String oLink : out) {
+                context.write(new Text(oLink), new Text("H:" + hub));
+            }
+
+            context.write(new Text(page), new Text("OUT:" + linksOut));
         }
 
-        context.write(new Text(page), new Text(linksIn));
+        context.write(new Text(page), new Text("IN:" + linksIn));
 
         String[] in = linksIn.split(",");
 
@@ -37,6 +44,5 @@ public class CalcMapper extends Mapper<LongWritable, Text, Text, Text>
             context.write(new Text(iLink), new Text("A:" + auth));
         }
 
-        context.write(new Text(page), new Text("|" + linksOut));
     }
 }
