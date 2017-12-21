@@ -33,13 +33,13 @@ public class LinkReducer extends Reducer<Text, Text, Text, Text> {
             first = false;
         }
 
-        if (!isExistingPage) {
-            return;
-        }
+//        if (!isExistingPage) {
+//            return;
+//        }
 
-        if (!hasIncomingLinks) {
-            return;
-        }
+//        if (!hasIncomingLinks) {
+//            return;
+//        }
 
         context.write(key, new Text(linksFromPages));
     }
