@@ -24,9 +24,13 @@ public class ExtractPageReducer extends Reducer<Text, Text, Text, Text>
         }
 
         for (String value : links) {
+            if (value.equals(";")){
+                break;
+            }
             if(!first) {
                 pagerank += ",";
             }
+
             pagerank += value;
             first = false;
         }

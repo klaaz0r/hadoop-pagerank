@@ -12,8 +12,8 @@ public class App
         File output = new File("./output");
         FileUtils.cleanDirectory(output);
 
-//        int res = ToolRunner.run(new Configuration(), new PageRankRunner(), args);
-        int res = ToolRunner.run(new Configuration(), new HitsRankRunner(), args);
+        int res = ToolRunner.run(new Configuration(), new PageRankRunner(), args);
+        //int res = ToolRunner.run(new Configuration(), new HitsRankRunner(), args);
         System.exit(res);
     }
 
