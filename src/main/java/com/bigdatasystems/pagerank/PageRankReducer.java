@@ -7,8 +7,6 @@ import java.io.IOException;
 
 public class PageRankReducer extends Reducer<Text, Text, Text, Text> {
 
-    private static final float damping = 0.85F;
-
     @Override
     public void reduce(Text page, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         float sumShareOtherPageRanks = 0;

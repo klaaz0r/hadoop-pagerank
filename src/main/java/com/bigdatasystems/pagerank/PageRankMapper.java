@@ -4,11 +4,13 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class PageRankMapper extends Mapper<LongWritable, Text, Text, Text> {
 
     @Override
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+
 
         String clean = value.toString();
         String[] tmp = clean.split("\t");
@@ -34,6 +36,7 @@ public class PageRankMapper extends Mapper<LongWritable, Text, Text, Text> {
             context.write(new Text(node), new Text("0.0 " + parsed[2]));
             return;
         }
-        context.write(new Text(node), new Text(val));
+
+        context.write(new Text(node), new Text("0.0"));
     }
 }
