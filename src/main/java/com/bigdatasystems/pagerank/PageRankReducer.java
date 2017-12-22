@@ -13,7 +13,6 @@ public class PageRankReducer extends Reducer<Text, Text, Text, Text> {
     public void reduce(Text page, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         float sumShareOtherPageRanks = 0;
         String links = "";
-        System.out.println("Page:: " + page.toString());
         String pageWithRank;
 
         for (Text value : values){

@@ -14,7 +14,6 @@ public class PageRankMapper extends Mapper<LongWritable, Text, Text, Text> {
         String[] tmp = clean.split("\t");
         clean = String.join("", tmp);
 
-        System.out.println("clean:: " + clean);
         String[] parsed = clean.split("\\|");
 
         String node = parsed[0];
@@ -30,14 +29,11 @@ public class PageRankMapper extends Mapper<LongWritable, Text, Text, Text> {
 
             for(String n : nodes) {
                 Text rank = new Text(Float.toString(share));
-                System.out.println("Write N:: " + n + " Met rank " + rank);
                 context.write(new Text(n), rank);
             }
-            System.out.println("Write 1");
             context.write(new Text(node), new Text("0.0 " + parsed[2]));
             return;
         }
-        System.out.println("Write 2");
         context.write(new Text(node), new Text(val));
     }
 }
